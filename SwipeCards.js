@@ -77,7 +77,6 @@ export default class SwipeCards extends Component {
   static propTypes = {
     cards: PropTypes.array,
     cardKey: PropTypes.string,
-    cardStyle: PropTypes.style,
     hasMaybeAction: PropTypes.bool,
     loop: PropTypes.bool,
     onLoop: PropTypes.func,
